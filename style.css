@@ -10,10 +10,14 @@
   background-color: black;
   padding:5%;
  }
- .row {
-  border: 2px solid red;
+
+ #about {
+    padding:5%;
+    min-height: 55vh;
+    background: #24F705;
+background: radial-gradient(circle at top left, #24F705 0%, #C7C2B1C4 48%)
  }
 
- .col {
-  border: 2px solid blue;
- }
+ .flex-row-2
+ {border: 2px solid red;
+    min-height: 500px;}
