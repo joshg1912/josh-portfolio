@@ -19,5 +19,26 @@ background: radial-gradient(circle at top left, #24F705 0%, #C7C2B1C4 48%)
  }
 
  .flex-row-2
- {border: 2px solid red;
-    min-height: 500px;}
+ {
+    min-height: 500px;
+   /* From https://css.glass */
+background: rgba(255, 255, 255, 0.03);
+border-radius: 16px;
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+padding: 5%;
+   
+   }
+
+    .row-2 {
+      min-height: 200px;
+      
+    }
+
+    #projects {
+      background-color:#C7C2B1C4;
+    }
+
+    .flex-row {
+      border: 2px solid red;
+    }
