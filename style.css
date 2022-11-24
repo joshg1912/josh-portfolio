@@ -42,3 +42,11 @@ padding: 5%;
     .flex-row {
       border: 2px solid red;
     }
+
+    .row-3 {
+      margin-top: 6%;
+    }
+
+    h4 {
+      font-family: MonumentExtended;
+    }
