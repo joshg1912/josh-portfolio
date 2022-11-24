@@ -1,0 +1,19 @@
+@font-face { font-family:MonumentExtended; src: url("/fonts/MonumentExtended-Regular.otf");}
+ .primary-font {
+  font-family: MonumentExtended;
+ }
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+ .hero {
+  min-height: 85vh;
+  border: 2px solid black;
+  background-color: black;
+  padding:5%;
+ }
+ .row {
+  border: 2px solid red;
+ }
+
+ .col {
+  border: 2px solid blue;
+ }
