@@ -32,7 +32,5 @@ p {
 }
 .photo {
     border: 2px solid blue;
-    width: 50%;
-    display: flex;
-    justify-content: center;;
+    
 }
