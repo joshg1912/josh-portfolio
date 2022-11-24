@@ -4,6 +4,7 @@
  }
  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
+
  .hero {
   min-height: 85vh;
   border: 2px solid black;
@@ -39,14 +40,21 @@ padding: 5%;
       background-color:#fff;
     }
 
-    .flex-row {
-      border: 2px solid red;
-    }
 
     .row-3 {
       margin-top: 6%;
+      margin-bottom:6%;
     }
 
     h4 {
       font-family: MonumentExtended;
+    }
+
+    a {
+      text-decoration: none;
+      color: grey;
+    }
+
+    h2 {
+      font-size: 4.8vh;
     }
