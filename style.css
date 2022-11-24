@@ -1,3 +1,6 @@
+@font-face {
+    font-family: MonumentExtended; src:url(/fonts/MonumentExtended-Regular.otf);
+}
 section {
     border: 2px solid black;
     min-height: 85vh;
@@ -15,4 +18,8 @@ section {
 .column {
     border: 2px solid blue;
     width: 80%;
+}
+
+.primary-font {
+    font-family: MonumentExtended;
 }
