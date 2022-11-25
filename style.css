@@ -114,3 +114,25 @@ padding: 5%;
       background-color:black;
       padding:5%;
     }
+
+    .html:hover {
+      color:orange;
+    }
+    .css:hover, .wordpress:hover, .photoshop:hover, .xcode:hover{
+      color:blue;
+    }
+    .javascript:hover{
+      color:yellow;
+    }
+    .php:hover, .divi:hover{
+      color:purple;
+    }
+    .ruby:hover, .ror:hover{
+      color:red;
+    }
+    .vue:hover {
+      color:green;
+    }
+    .hover {
+      transition: .5s;
+    }
