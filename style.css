@@ -27,12 +27,12 @@
     padding:5%;
     min-height: 55vh;
     background: #24F705;
-background: radial-gradient(circle at top left, #24F705 0%, #fff 48%)
+background: radial-gradient(circle at top left, #24F705 0%, #fff 36%)
  }
 
  .flex-row-2
  {
-    min-height: 500px;
+    min-height: 200px;
    /* From https://css.glass */
 background: rgba(255, 253, 253, 0.03);
 border-radius: 16px;
@@ -40,6 +40,10 @@ backdrop-filter: blur(5px);
 -webkit-backdrop-filter: blur(5px);
 padding: 5%;
    
+   }
+
+   .row-i {
+    min-height: 250px;
    }
 
     .row-2 {
@@ -55,11 +59,14 @@ padding: 5%;
     .row-3 {
       margin-top: 8%;
       margin-bottom:8%;
+      margin-left: auto;
+      margin-right: auto;
       padding: 5%;
       background: rgba(245, 239, 239, 0.500);
       border-radius: 20px;
       backdrop-filter: blur(5px);
       -webkit-backdrop-filter: blur(5px);
+      width: 80%;
     }
 
     h4 {
@@ -73,6 +80,7 @@ padding: 5%;
 
     h2 {
       font-size: 4.8vh;
+      line-height: 1.4em;
     }
 
     .container {
