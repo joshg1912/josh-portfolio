@@ -15,7 +15,14 @@
   min-height: 500px;
  }
 
+ .nav-link {
+  font-family: MonumentExtended;
+  font-size: 15px;
+ }
+
+
 .nav-links {
+  padding-top: 1.1%;
   display: flex;
   align-items: center;
   justify-content: space-around;
