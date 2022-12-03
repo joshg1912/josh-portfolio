@@ -162,6 +162,12 @@ padding: 5%;
     .hover {
       transition: .5s;
     }
+
+    @media only screen and (max-width:980px) {
+      .primary-font, p {
+        text-align: center;
+    }
+  }
     </style>
     <body>
      <nav>
@@ -174,8 +180,8 @@ padding: 5%;
           </ul>
      </nav>
         <section class="hero">
-            <div class="d-flex flex-row align-items-center">
-                <div class="col">
+            <div class="d-md-flex flex-row align-items-center">
+                <div class="col-sm">
                     <h1 class="primary-font">Hi, I'm Josh</h1>
                     <p style="font-weight:500">Professional web designer and developer based in Portland, Oregon.</p>                
                     <button type="button" class="btn btn-outline-secondary"><a href="#projects">View my work</a></button>
@@ -185,8 +191,8 @@ padding: 5%;
             </div>
         </section>
         <section id="about">
-            <div class="d-flex flex-row-2 align-items-center">
-               <div class="col"><h2 class="primary-font">Creating responsive websites for clients.</h2></div>
+            <div class="d-md-flex flex-row-2 align-items-center">
+               <div class="col py-5"><h2 class="primary-font">Creating responsive websites for clients.</h2></div>
                <div class="col"><p>I started a postition in web desgin with a background in web development. I quickly learned the basics of web design which helped me grow my skillset as a developer. I am creating beautiful websites for a range of clients and businesses. My responsbilities include maintaining past client's websites as well as creating unique and functional websites for new clients.</p>
                 <p>When i'm not working, I love making 3d animations using Daz3d studio. I'm self taught, having been using daz studio for over 6 years. Check out my work <a href="artwork/artwork.html">here</a></p>
             </div>
@@ -196,26 +202,26 @@ padding: 5%;
             </div>
             </section>
             <section id="experience">
-                <div class="row-3 d-flex text-center">
+                <div class="row-3 d-md-flex text-center">
                     <div class="col">
-                        <h5>Web Design</h5>
+                        <h5 class="pb-3">Web Design</h5>
                         <h4 class="hover wordpress">Wordpress</h4>
                         <h4 class="hover divi">Divi</h4>
                         <h4 class="hover photoshop">Adobe Photoshop</h4>
-                        <h4 class="hover xcode">Xcode</h4>
+                        <h4 class="hover xcode mb-4">Xcode</h4>
                     </div>
                     <div class="col">
-                        <h5>Web Development</h5>
+                        <h5 class="pb-3">Web Development</h5>
                         <h4 class="hover html">HTML</h4>
                         <h4 class="hover css">CSS</h4>
                         <h4 class="hover javascript">Javascript</h4>
                         <h4 class="hover php">PHP</h4>
                         <h4 class="hover ruby">Ruby</h4>
                         <h4 class="hover ror">Ruby on Rails</h4>
-                        <h4 class="hover vue">Vue.js</h4>
+                        <h4 class="hover vue mb-4">Vue.js</h4>
                     </div>
                     <div class="col">
-                        <h5>3D Animation</h5>
+                        <h5 class="pb-3">3D Animation</h5>
                         <h4 class="hover html">Daz Studio</h4>
                         <h4>Blender</h4>
                         <h4>After Effects</h4>
