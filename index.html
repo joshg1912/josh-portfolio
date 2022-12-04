@@ -12,10 +12,16 @@
     <style>
         @font-face { font-family:MonumentExtended; src: url("fonts/MonumentExtended-Regular.otf");
     }
+        @font-face {
+          font-family:OpenSans; src:url("fonts/OpenSans-Regular.ttf");
+        }
+
+  p {
+    font-family: OpenSans;
+  }
  .primary-font {
   font-family: MonumentExtended;
  }
- @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
  .profile-photo {
   width:80%;
@@ -39,12 +45,20 @@
   font-size: 15px;
  }
 
-
+h1 {
+  color: white;
+}
 .nav-links {
   padding-top: 1.1%;
+  padding-bottom: 1.1%;
   display: flex;
   align-items: center;
   justify-content: space-around;
+  margin-bottom: 0;
+}
+
+.hero-font {
+  color:white;
 }
  p {
   font-family: 'Open Sans', sans-serif;
@@ -81,6 +95,9 @@ padding: 5%;
       background-color:#fff;
     }
 
+    nav {
+      background-color:black;
+    }
 
     .row-3 {
       margin-top: 8%;
@@ -226,7 +243,7 @@ padding: 5%;
      <nav>
           <ul class="nav-links">
             <li class="nav-link col-5"><h3 class="primary-font">Josh Garcia</h3></li>
-            <li class="nav-link"><a href="/index.html">Home</a></li>
+            <li class="nav-link"><a href="https://joshg1912.github.io/josh-portfolio/">Home</a></li>
             <li class="nav-link"><a href="#about">About</a></li>
             <li class="nav-link"><a href="#projects">Projects</a></li>
             <li class="nav-link"><a href="artwork/artwork.html">3D Renders</a></li>
@@ -254,7 +271,7 @@ padding: 5%;
                   href="#projects"> Projects </a>
     
               <a class="nav-link border-bottom" 
-                  href="#/artwork.html"> 3D Renders </a>
+                  href="artwork/artwork.html"> 3D Renders </a>
           </div>
       </ul>
       
@@ -264,7 +281,7 @@ padding: 5%;
             <div class="d-md-flex flex-row align-items-center row-mobile">
                 <div class="col-sm">
                     <h1 class="primary-font">Hi, I'm Josh</h1>
-                    <p style="font-weight:500">Professional web designer and developer based in Portland, Oregon.</p>                
+                    <p style="font-weight:500" class="hero-font">Professional web designer and developer based in Portland, Oregon.</p>                
                     <button type="button" class="btn btn-outline-secondary"><a href="#projects">View my work</a></button>
                 </div>
                 <div class="col d-flex justify-content-center photo"><img src="assets/profile-photo.jpg" class="profile-photo">
@@ -313,7 +330,7 @@ padding: 5%;
             <div class="d-flex row-2 align-items-center text-center">
                 <div class="col">
                     <h3 class="primary-font text-center">My Recent Work</h3>
-                    <p>Want to see more? Contact me</p>
+                    <p>Want to see more? <a href="mailto:joshgarcia7410@gmail.com"><strong>Contact Me</strong></a></p>
                 </div>
                 </div>
                 <div class="row text-center">
