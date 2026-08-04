@@ -1,3 +1,15 @@
+// Get modal elements
+const modal = document.getElementById("projectModal");
+const closeBtn = document.querySelector(".close-btn");
+const modalTitle = document.getElementById("modalTitle");
+const modalDesktopImg = document.getElementById("modalDesktopImg");
+const modalMobileImg = document.getElementById("modalMobileImg");
+const body = document.body;
+
+// Get all "View Site" buttons
+const viewButtons = document.querySelectorAll(".view-project-btn");
+
+// Open modal and populate data when a button is clicked
 viewButtons.forEach(button => {
     button.addEventListener("click", () => {
         const title = button.getAttribute("data-title");
@@ -8,17 +20,23 @@ viewButtons.forEach(button => {
         modalDesktopImg.src = desktopSrc;
         modalMobileImg.src = mobileSrc;
 
-        // Force it to display as a fixed overlay when clicked
         modal.style.setProperty("display", "block", "important");
+        body.classList.add("modal-open"); // Freeze background scroll
     });
 });
 
-closeBtn.addEventListener("click", () => {
+// Close modal function
+const closeModal = () => {
     modal.style.setProperty("display", "none", "important");
-});
+    body.classList.remove("modal-open"); // Restore background scroll
+};
 
+// Close modal when clicking the 'X'
+closeBtn.addEventListener("click", closeModal);
+
+// Close modal when clicking outside the modal content
 window.addEventListener("click", (event) => {
     if (event.target === modal) {
-        modal.style.setProperty("display", "none", "important");
+        closeModal();
     }
 });
