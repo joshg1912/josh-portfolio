@@ -183,7 +183,7 @@ body {
     background-color: #fff;
 }
 
-h1, h2, h3, .logo, .nav-links a, .btn {
+h1, h2, h3, .logo, .nav-links a, .btn, .project-btn {
     font-family: 'Monument Extended', sans-serif;
     text-transform: uppercase;
 }
